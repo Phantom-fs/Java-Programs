@@ -2,7 +2,7 @@
 
 #### *Following Topics and their programs are present :-*
 
-#### NOTE : Take care of the program name, as well as package name when copying or downloading programs as mismatch in name causes problem in JAVA
+#### NOTE : Take care of the program name, as well as package name when using the codes as mismatch in name causes problem in JAVA i.e., File Name and Class Name being different
 
 - - - -
 
