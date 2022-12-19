@@ -15,6 +15,7 @@ public class FruitCSVReading
     {
         try
         {
+            //change location to the directory where .csv file is saved
             FileReader fileReader = new FileReader("B:\\3- Java Programs\\IdeaProjects\\CSVData\\CSV Files\\SimpleFruitData.csv");
             CSVParser csvParser = new CSVParser(fileReader, CSVFormat.DEFAULT);
 
