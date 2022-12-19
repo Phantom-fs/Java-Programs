@@ -3,17 +3,18 @@
 //Coder : Phantom-fs
 
 //This is an external library, use steps in CSV README.md file to know how to add it
+package FruitCSV;
+
 import org.apache.commons.csv.*;
 import java.io.*;
 
-public class CSVBasicReading
+public class FruitCSVReading
 {
     static String newline = System.getProperty("line.separator");
     public void readCSV ()
     {
         try
         {
-            //update the CSV File location
             FileReader fileReader = new FileReader("B:\\3- Java Programs\\IdeaProjects\\CSVData\\CSV Files\\SimpleFruitData.csv");
             CSVParser csvParser = new CSVParser(fileReader, CSVFormat.DEFAULT);
 
@@ -41,10 +42,10 @@ public class CSVBasicReading
             throw new RuntimeException(e);
         }
     }
-    
+
     public static void main (String[] args)
     {
-        CSVBasicReading csvBasicReading = new CSVBasicReading();
+        FruitCSVReading csvBasicReading = new FruitCSVReading();
         csvBasicReading.readCSV();
     }
 }
