@@ -2,9 +2,10 @@
 //NOTE : Take care of the file and package name and make sure the csv file location is set
 //Coder : Phantom-fs
 
-//This is an external library, use steps in CSV README.md file to know how to add it
 package FruitCSV;
 
+
+//This is an external library, use steps in CSV README.md file to know how to add it
 import org.apache.commons.csv.*;
 import java.io.*;
 
